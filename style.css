@@ -64,7 +64,7 @@ body, html{
 .home{
     height: 545px;
     background-image: linear-gradient(to bottom, transparent, white),
-            url("/images/main.jpg");
+            url("./images/main.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
@@ -398,7 +398,7 @@ body, html{
 .consultation{
     width: 100%;
     padding-bottom: 72px;
-    background-image: url(/images/img.png);
+    background-image: url("./images/img.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
