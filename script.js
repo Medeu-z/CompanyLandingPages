@@ -25,13 +25,13 @@ function featureProjectNext() {
     }
   }
 
-let done_projects = [{img: "/images/img1.png", title: "Wildstone Infra Hotel", body: "2715 Ash Dr. San Jose, South Dakota"},
-                     {img: "/images/img2.png", title: "Wish Stone Building", body: "2972 Westheimer Rd. Santa Ana, Illinois"},
-                     {img: "/images/img3.png", title: "Mr. Parkinston's House", body: "3517 W. Gray St. Utica, Pennsylvania"},
-                     {img: "/images/img4.png", title: "Oregano Height", body: "2464 Royal Ln. Mesa, New Jersey"},
-                     {img: "/images/img5.jpg", title: "Paradise Hotel", body: "5715 Ash Dr. San Jose, New Jersey"},
-                     {img: "/images/img6.jpg", title: "Mr. Harry's House", body: "2900 Westheimer Rd. Santa Ana, Illinois"},
-                     {img: "/images/img7.jpg", title: "Future Infra Hotel", body: "3543 W. Bless St. Utica, Pennsylvania"},];
+let done_projects = [{img: "images/img1.png", title: "Wildstone Infra Hotel", body: "2715 Ash Dr. San Jose, South Dakota"},
+                     {img: "images/img2.png", title: "Wish Stone Building", body: "2972 Westheimer Rd. Santa Ana, Illinois"},
+                     {img: "images/img3.png", title: "Mr. Parkinston's House", body: "3517 W. Gray St. Utica, Pennsylvania"},
+                     {img: "images/img4.png", title: "Oregano Height", body: "2464 Royal Ln. Mesa, New Jersey"},
+                     {img: "images/img5.jpg", title: "Paradise Hotel", body: "5715 Ash Dr. San Jose, New Jersey"},
+                     {img: "images/img6.jpg", title: "Mr. Harry's House", body: "2900 Westheimer Rd. Santa Ana, Illinois"},
+                     {img: "images/img7.jpg", title: "Future Infra Hotel", body: "3543 W. Bless St. Utica, Pennsylvania"},];
 
 let numOfCards = 4;
 let done_projects_index = 0;
