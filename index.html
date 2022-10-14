@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <title>Company Landing Page</title>
+</head>
+<body>
+    <header>
+        <nav class="wrapper">
+            <input type="checkbox" id="checkbox-menu">
+            <label for="checkbox-menu">
+                <ul class="menu touch">
+                    <li id="logo">  
+                        <a href="" >
+                            <div class="logo">
+                                <img src="images/logo.png" alt="logo">
+                                <span>TheBox</span>
+                            </div>
+                        </a> 
+                    </li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutUs">About Us</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contactUs">Contact Us</a></li>
+                </ul>
+                <span class="toggle">☰</span>
+
+
+            </label>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <p>Building things is our mission.</p>
+            <div class="home-container">
+                <div class="home-container-title">Feature Projects</div>
+                <div class="home-container-body" id="featureProjectText">The National University of Architecture</div>
+                <div class="home-container-footer">
+                    <button class="home-container-button" id="featureProjectBack" onclick="featureProjectBack()">
+                        <i class="bi bi-arrow-left"></i>
+                        Back
+                    </button>
+                    <button class="home-container-button"  id="featureProjectNext" onclick="featureProjectNext()">
+                        Next 
+                        <i class="bi bi-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="reputation">
+            <p class="reputation-titles">Our Reputation</p>
+            <div class="reputation-containers">
+                <div class="reputation-container">
+                    <div class="reputation-container-icon"><i class="bi bi-headset"></i></div>
+                    <div class="reputation-container-title">Best Services</div>
+                    <div class="reputation-container-body">Nullam senectus porttitor in eget. Eget rutrum leo interdum.</div>
+                </div>
+                <div class="reputation-container">
+                    <div class="reputation-container-icon"><i class="bi bi-people-fill"></i></div>
+                    <div class="reputation-container-title">Best Teams</div>
+                    <div class="reputation-container-body">Cursus semper tellus volutpat aliquet lacus. </div>
+                </div>
+                <div class="reputation-container">
+                    <div class="reputation-container-icon"><i class="bi bi-pencil-fill"></i></div>
+                    <div class="reputation-container-title">Best Designs</div>
+                    <div class="reputation-container-body">Ultricies at ipsum nunc, tristique nam lectus.</div>
+                </div>
+            </div>
+        </section>
+        <section class="aboutUs wrapper" id="aboutUs">
+            <img src="/images/founder.png" alt="founder">
+            <div class="aboutUs-container">
+                <div class="titles">About us</div>
+                <div class="aboutUs-container-body">
+                        For more than 30 years we have been delivering world-class construction and we've built many lasting relationships along the way. <br><br> We've matured into an industry leader and trusted resource for those seeking quality, innovation and reliability when building in the U.S.
+                </div>
+                <button class="aboutUs-container-button">More on Our History</button>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <p class="titles">Services</p>
+            <div class="services-containers">
+                <div class="service-container">
+                    <div class="service-container-icon">
+                        <i class="bi bi-building"></i>
+                        <div class="icon-back"></div>
+                    </div>
+                    <hr>
+                    <div class="service-container-name">Construction</div>
+                </div>
+                <div class="service-container">
+                    <div class="service-container-icon">
+                        <i class="bi bi-share"></i>
+                        <div class="icon-back"></div>
+                    </div>
+                    <hr>
+                    <div class="service-container-name">Renovation</div>
+                </div>
+                <div class="service-container">
+                    <div class="service-container-icon">
+                        <i class="bi bi-chat-dots-fill"></i>
+                        <div class="icon-back"></div> 
+                    </div>
+                    <hr>
+                    <div class="service-container-name">Consultation</div>
+                </div>
+                <div class="service-container">
+                    <div class="service-container-icon">
+                        <i class="bi bi-cash-coin"></i>
+                        <div class="icon-back"></div>
+                    </div>
+                    <hr>
+                    <div class="service-container-name">Repair Services</div>
+                </div>
+                <div class="service-container">
+                    <div class="service-container-icon">
+                        <i class="bi bi-rulers"></i>
+                        <div class="icon-back"></div>
+                    </div>
+                    <hr>
+                    <div class="service-container-name">Architecture</div>
+                </div>
+                <div class="service-container">
+                    <div class="service-container-icon">
+                        <i class="bi bi-plug-fill"></i>
+                        <div class="icon-back"></div>
+                    </div>
+                    <hr>
+                    <div class="service-container-name">Electric</div>
+                </div>
+
+            </div>
+        
+        </section>
+        <section class="experience">
+            <div class="experience-containers">
+                <div class="experience-type"> 
+                    <img src="/images/illus.png" class="image-one">
+                    <div class="experience-type-title">84</div>
+                    <div class="experience-type-body">Happy Clients</div>
+                </div>
+                <div class="experience-type"> 
+                    <img src="/images/illus2.png" class="image-two">
+                    <div class="experience-type-title">123</div>
+                    <div class="experience-type-body">Projects Completed</div>
+                </div>
+                <div class="experience-type"> 
+                    <img src="/images/illus3.png" class="image-three">
+                    <div class="experience-type-title">37</div>
+                    <div class="experience-type-body">Awards Win</div>
+                </div>
+                <div class="experience-type"> 
+                    <img src="/images/illus4.png"  class="image-four">
+                    <div class="experience-type-title">30</div>
+                    <div class="experience-type-body">Years in Business</div>
+                </div>
+               
+            </div>
+            <div class="experience-container-text">
+                <div class="experience-container-title">30 Years Experience</div>
+                <div class="experience-container-body">
+                    Our company has been the leading provided construction services to clients throughout the USA since 1988.
+                </div>
+                <a href="#contacts"><button class="experience-container-button">Contact Us</button></a>
+            </div>
+        </section>
+        <section class="consultation">
+            <div>
+                <div class="consultation-title">Free consultation with exceptional quality</div>
+                <div class="consultation-body">Just one call away: +84 1102 2703</div>
+            </div>
+            <div>
+                <button class="consultation-button">Get your consultation</button>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <div class="projects-links">
+                <div class="projects-title">Projects</div>
+                <div class="projects-navbar">
+                    <div class="projects-navbar-nav active">All</div>
+                    <div class="projects-navbar-nav">Commercial</div>
+                    <div class="projects-navbar-nav">Residential</div>
+                    <div class="projects-navbar-nav">Other</div>
+                </div>
+            </div>
+            <div class="project-containers">
+                <div class="project-body" id="project-body">                    
+                </div>
+                <div class="project-footer">
+                    <div class="project-footer-button" id="projectBack" onclick="DoneProjectBack()"><i class="bi bi-arrow-left"></i><span>Back</span> </div>
+                     <div class="project-footer-p">
+                    </div>
+                    <div class="project-footer-button" id="projectNext" onclick="DoneProjectNext()"><span>Next </span> <i class="bi bi-arrow-right"></i></div>
+                </div>
+            </div>
+          
+        </section>
+        <section class="contactUs" id="contactUs">
+            <div class="contactUs-title">What can us do for you?</div>
+            <div class="contactUs-body">
+                <div class="contactUs-body-description">We are ready to work on a project of any complexity, whether it's commercial or residential.</div>
+                <form class="form">
+                    <input type="text" name="" id="name" placeholder="Your Name">
+                    <input type="email" name="" id="email" placeholder="Email">
+                    <input type="text" name="" id="reason" placeholder="Reason for Contacting">
+                    <input type="text" name="" id="phone" placeholder="Phone">
+                    <textarea name="" id="msg" placeholder="Message"></textarea>
+                    <label for="msg"><span>*</span>indicates a required field</label>
+                </form>
+            </div>
+            <div class="contactUs-footer">
+                <div class="contactUs-footer-button">
+                    Submit
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="contacts-first">
+                <div class="contacts-address"> <div class="color">ADDRESS:</div>6391 Elgin St. Celina, Delaware 10299</div>
+                <div class="contacts-phone"><div class="color">PHONE:</div> +84 1102 2703</div>
+                <div class="contacts-email"><div class="color">EMAIL:</div> hello@thebox.com</div>
+                <div class="logo">
+                        <img src="images/logo.png" alt="logo">
+                        <span>TheBox</span>
+                </div>
+            </div>
+            <div class="contacts-seconds">
+                <div class="color">NEWSLETTER:</div>
+                <div>
+                    <input type="email" placeholder="Your email here">
+                    <button>Subscribe</button>
+                </div>
+                <div class="color">SOCIAL:</div>
+                <div class="social-icons">
+                    <img src="/images/facebook.png" alt="">
+                    <img src="/images/linkedin.png" alt="">
+                    <img src="/images/twitter.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>TheBox Company © 2022. All Rights Reserved</div>
+    </footer>
+    
+</body>
+</html>
